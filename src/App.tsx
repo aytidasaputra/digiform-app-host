@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import Counter from './components/login/login'
+import Login from './components/login/login'
 import './App.scss'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <Counter />
+    <div className="bg-img">
+      <Login />
     </div>
   )
 }

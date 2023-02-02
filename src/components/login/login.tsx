@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 
-function Counter() {
+function Login() {
     const [count, setCount] = useState(0)
     return (
-        <div className="flex h-screen">
-            <div className="m-auto">
-
-            </div>
+        <div className="row">
         </div>
     )
 }
 
-export default Counter
+export default Login

@@ -1,0 +1,16 @@
+body {
+    background-image: url('./src/assets/images/svg/bg-login-digiform.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.col {
+
+    width: 50%;
+}
