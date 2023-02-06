@@ -13,9 +13,11 @@
     "sonar": "npm run coverage && npx sonar-scanner -Dsonar.login=6455aaea0227f44103ff0e143cf821afa0243dd2"
   },
   "dependencies": {
+    "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sonarqube-scanner": "^3.0.0"
+    "sonarqube-scanner": "^3.0.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
@@ -32,8 +34,8 @@
     "husky": "^8.0.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
-    "sass": "^1.58.0",
     "sonar-scanner": "^3.1.0",
+    "tailwindcss": "^3.2.4",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
     "vite-tsconfig-paths": "^4.0.5",
